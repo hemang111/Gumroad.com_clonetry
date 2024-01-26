@@ -616,6 +616,9 @@ h3 {
     line-height: 2rem;
 
 }
+#to3 img{
+    padding-left: 80px;
+}
 #p3 {
     position: relative;
     background-color: var(--pink);
