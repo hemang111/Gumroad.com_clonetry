@@ -870,6 +870,7 @@ nav {
         border-radius: 0;
 
     }
+
 }
 @media screen and (max-width : 998px) {
     .person {
@@ -929,7 +930,9 @@ nav {
         background-color: transparent;
         height: fit-content;
     }
-
+    .t2 ul{
+        left: 40px;
+    }
     .sec2 {
         width: 100%;
         text-align: center;
@@ -1060,6 +1063,13 @@ nav {
             left: 10%;
             
         }
+        .t2 h1{ 
+            left: 0;
+            right: 0;
+            padding: 0;
+           width:100%;
+           text-align: center;
+        }
 }
 
 @media screen and (max-width : 480px) {
@@ -1071,7 +1081,7 @@ nav {
         width: 80%;
     }
     #to1 > img{
-        padding: 80px;
+        padding: 50px;
     
     }
     .t2 p{
@@ -1080,7 +1090,13 @@ nav {
         font-size: 20px;
         
     }
-
+    .t2 h1{ 
+        left: 0;
+        right: 0;
+        padding: 0;
+       width:100%;
+       text-align: center;
+    }
     #to2 p{
         width: 75%;
         align-self: center;
@@ -1170,6 +1186,9 @@ nav {
         flex-direction: column;
         position: relative;
         
+    }
+    .t2 ul{
+        left: 0;
     }
      .Illustra_1{
         display: flex;
