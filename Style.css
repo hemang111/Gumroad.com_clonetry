@@ -850,7 +850,92 @@ nav {
     text-align: center;
     padding-bottom: 80px;
 }
+footer{
+    height: fit-content;
+    background-color: var(--black);
+}
+.main_Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    display: flex;
+width: 100%;
+}
+.menu{
+    display: flex;
+    font-size: 30px;
 
+    align-items: center;
+    width: 50%;
+    align-content:center;
+}
+.mail{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-end;
+
+}
+.grid1 ol{
+    position: relative;
+    top:-40px;
+}
+.grid2 ol {
+    position: relative;
+    top: -30px;
+    
+}
+.mail p {
+   
+    color: white;
+    font-size: 30px;
+    padding: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: 500;
+}
+form{
+  align-self: flex-start;
+
+  margin: 0;
+  padding: 0; 
+  display: inline-flex;
+}
+input{
+    margin: 40px;
+    margin-top: 0;
+    margin-right: 0;
+    height: 50px;
+    font-family: Mabry pro, sans-serif;
+    padding-left: 10px;
+    width: 250px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid ;
+}
+ol{
+    color: white;
+    list-style: none;
+    font-family: Mabry pro, sans-serif;
+    font-size: 16px;
+}
+li:hover{
+    color: var(--pink);
+}
+#o{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: fit-content;
+    height: 54px;
+    padding: 10px;
+    background-color: var(--pink);
+    margin: 0;
+}
 #c1 {
     background-color: var(--orange);
 }
@@ -905,6 +990,26 @@ nav {
         flex-direction: column-reverse;
         height: fit-content;
         overflow-x: hidden;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .mail{
+        width: 100%;
+    }
+    input{
+        margin-left:30px ;
+        width: 70vw;
+    }
+    .menu{
+        width: 100%;
+        gap : 30vw;
+        align-content: center;
+        align-items: center;
+    }
+    .grid1{
+        padding-left: 0;
+        margin-left: 0;
     }
 .multi-color1{
     display: none;
@@ -1169,7 +1274,11 @@ nav {
     .body {
         overflow-x: hidden;
     }
-
+    input{
+        margin-left:30px ;
+        width: 60vw;
+        overflow-x: hidden;
+    }
     .t2>h1 {
         width: 80%;
     }
@@ -1178,7 +1287,19 @@ nav {
         padding: 50px;
 
     }
+    footer img{
+        width: 80%;
+    }
+    .menu{
+        width: 100%;
+        gap:20px;
+    
+    }
+.grid1{
 
+    width: 50%;
+  
+}
     .t2 p {
         width: 100%;
         align-self: center;
