@@ -866,7 +866,7 @@ width: 100%;
 .menu{
     display: flex;
     font-size: 30px;
-
+    gap: 40px;
     align-items: center;
     width: 50%;
     align-content:center;
@@ -881,11 +881,11 @@ width: 100%;
 }
 .grid1 ol{
     position: relative;
-    top:-40px;
+    top:-20px;
 }
 .grid2 ol {
     position: relative;
-    top: -30px;
+    top: -10px;
     
 }
 .mail p {
@@ -920,7 +920,7 @@ ol{
     color: white;
     list-style: none;
     font-family: Mabry pro, sans-serif;
-    font-size: 16px;
+    font-size: 24px;
 }
 li:hover{
     color: var(--pink);
@@ -990,6 +990,9 @@ li:hover{
         flex-direction: column-reverse;
         height: fit-content;
         overflow-x: hidden;
+    }
+    ol{
+        font-size: 16px;
     }
     .content{
         flex-direction: column;
