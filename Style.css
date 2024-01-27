@@ -879,13 +879,16 @@ width: 100%;
     align-self: flex-end;
 
 }
+.content{
+    padding-bottom: 40px;
+}
 .grid1 ol{
     position: relative;
-    top:-20px;
+    top: 8px;
 }
 .grid2 ol {
     position: relative;
-    top: -10px;
+ top :28px;   
     
 }
 .mail p {
@@ -915,6 +918,9 @@ input{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: 1px solid ;
+}
+li{
+    padding-bottom: 10px;
 }
 ol{
     color: white;
